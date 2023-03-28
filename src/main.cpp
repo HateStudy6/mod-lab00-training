@@ -1,6 +1,9 @@
 // Copyright 2022 UNN-IASR
+#include <iostream>
 #include "fun.h"
-
-int main() {
-    return 0;
+int main() 
+{
+    int64_t x = 2;
+    uint16_t n = 4;
+    std::cout <<  power(x, n);
 }
